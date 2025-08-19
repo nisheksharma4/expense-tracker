@@ -24,6 +24,7 @@ Track your expenses, categorize them, and manage your budget with a clean, respo
 | **Hosting** | Ready for Netlify + Railway    |
 
 ## 📦 Project Structure
+
 Expense-Tracker-app/
 ├── backend/ → Spring Boot REST API
 │ ├── src/
@@ -44,21 +45,21 @@ cd backend
 mvnw spring-boot:run
 Backend runs at http://localhost:8080
 
-2. Run Frontend
+### 2. Run Frontend
    cd frontend
-  npx http-server -p 3000
+   npx http-server -p 3000
 
 Frontend runs at: http://localhost:3000
 
 🗄️ Database Setup
-Install PostgreSQL
-Create a database
-CREATE DATABASE expense_tracker_db;
+   Install PostgreSQL
+   Create a database
+   CREATE DATABASE expense_tracker_db;
 
 3. Update backend/src/main/resources/application.properties
    spring.datasource.url=jdbc:postgresql://localhost:5432/student_db
-  spring.datasource.username=postgres
-  spring.datasource.password=your_password
+   spring.datasource.username=postgres
+   spring.datasource.password=your_password
 
 🌐 API Endpoints
 METHOD      ENDPOINT              DESCRIPTION
