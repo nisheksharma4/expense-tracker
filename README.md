@@ -24,7 +24,7 @@ Track your expenses, categorize them, and manage your budget with a clean, respo
 | **Hosting** | Ready for Netlify + Railway    |
 
 ## 📦 Project Structure
-
+```
 Expense-Tracker-app/
 ├── backend/ → Spring Boot REST API
 │ ├── src/
@@ -34,7 +34,7 @@ Expense-Tracker-app/
 ├── index.html
 ├── style.css
 └── script.js
-
+```
 
 ## 🚀 How to Run Locally
 
