@@ -4,9 +4,6 @@ A full-stack expense tracker web application built with **Spring Boot (Java)** a
 
 Track your expenses, categorize them, and manage your budget with a clean, responsive UI.
 
-![Expense Tracker Demo](https://via.placeholder.com/800x400.png?text=Expense+Tracker+Demo)  
-
-
 ## 🚀 Features
 
 - ✅ Add new expenses (description, amount, category, date)
