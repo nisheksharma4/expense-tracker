@@ -1,0 +1,26 @@
+# Maven build folder
+target/
+.mvn/wrapper/maven-wrapper.jar
+
+# Eclipse
+.project
+.classpath
+.metadata
+.settings/
+bin/
+
+# OS & IDE
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+.idea/
+
+# Logs
+*.log
+logs/
+log/
+
+# Node (if you use npm later)
+node_modules/
+npm-debug.log*
